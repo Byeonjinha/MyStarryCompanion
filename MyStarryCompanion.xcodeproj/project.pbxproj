@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA80714929EF685200964277 /* MyStarryCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80714829EF685200964277 /* MyStarryCompanionApp.swift */; };
+		BA80714D29EF685300964277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80714C29EF685300964277 /* Assets.xcassets */; };
+		BA80715029EF685300964277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80714F29EF685300964277 /* Preview Assets.xcassets */; };
+		BA80715F29EF685300964277 /* MyStarryCompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80715E29EF685300964277 /* MyStarryCompanionTests.swift */; };
+		BA80716929EF685300964277 /* MyStarryCompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80716829EF685300964277 /* MyStarryCompanionUITests.swift */; };
+		BA80716B29EF685300964277 /* MyStarryCompanionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80716A29EF685300964277 /* MyStarryCompanionUITestsLaunchTests.swift */; };
+		BA80718429EF686C00964277 /* CherryBlossomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717729EF686C00964277 /* CherryBlossomView.swift */; };
+		BA80718529EF686C00964277 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717829EF686C00964277 /* ButtonsView.swift */; };
+		BA80718629EF686C00964277 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717929EF686C00964277 /* OnboardingView.swift */; };
+		BA80718729EF686C00964277 /* ServeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717A29EF686C00964277 /* ServeInfoView.swift */; };
+		BA80718829EF686C00964277 /* LeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717B29EF686C00964277 /* LeafView.swift */; };
+		BA80718929EF686C00964277 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717C29EF686C00964277 /* ContentView.swift */; };
+		BA80718A29EF686C00964277 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717D29EF686C00964277 /* ButtonView.swift */; };
+		BA80718B29EF686C00964277 /* FireworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717E29EF686C00964277 /* FireworksView.swift */; };
+		BA80718C29EF686C00964277 /* ChoiceSeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717F29EF686C00964277 /* ChoiceSeasonView.swift */; };
+		BA80718E29EF686C00964277 /* ExplainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80718129EF686C00964277 /* ExplainView.swift */; };
+		BA80718F29EF686C00964277 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80718229EF686C00964277 /* SnowView.swift */; };
+		BA80719029EF686C00964277 /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80718329EF686C00964277 /* SeasonView.swift */; };
+		BA80719229EF68F500964277 /* starAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA80719129EF68F500964277 /* starAudio.mp3 */; };
+		BA80719429EF711B00964277 /* quizData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA80719329EF711B00964277 /* quizData.json */; };
+		BA80719629EF781800964277 /* constellationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA80719529EF781800964277 /* constellationsData.json */; };
+		BA80719929EF79F800964277 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80719829EF79F800964277 /* Extensions.swift */; };
+		BA8071A029EF7D4500964277 /* buttonLocationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA80719F29EF7D4500964277 /* buttonLocationsData.json */; };
+		BA8071A229EF7E8300964277 /* starLocations.json in Resources */ = {isa = PBXBuildFile; fileRef = BA8071A129EF7E8300964277 /* starLocations.json */; };
+		BA8071A729EFA3FC00964277 /* RotatingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071A629EFA3FC00964277 /* RotatingStar.swift */; };
+		BA8071A929EFA42900964277 /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071A829EFA42900964277 /* CompleteView.swift */; };
+		BA8071AB29EFA45200964277 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071AA29EFA45200964277 /* Audio.swift */; };
+		BA8071AD29EFA75B00964277 /* constellationLocationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA8071AC29EFA75B00964277 /* constellationLocationsData.json */; };
+		BA8071B129EFA7B800964277 /* memoLocationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA8071B029EFA7B800964277 /* memoLocationsData.json */; };
+		BA8071B329EFADA800964277 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071B229EFADA800964277 /* ContentViewModel.swift */; };
+		BA8071B729EFB5A700964277 /* ShareDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071B629EFB5A700964277 /* ShareDatas.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA80715B29EF685300964277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA80713D29EF685200964277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA80714429EF685200964277;
+			remoteInfo = MyStarryCompanion;
+		};
+		BA80716529EF685300964277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA80713D29EF685200964277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA80714429EF685200964277;
+			remoteInfo = MyStarryCompanion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA80714529EF685200964277 /* MyStarryCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStarryCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80714829EF685200964277 /* MyStarryCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStarryCompanionApp.swift; sourceTree = "<group>"; };
+		BA80714C29EF685300964277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA80714F29EF685300964277 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA80715A29EF685300964277 /* MyStarryCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStarryCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80715E29EF685300964277 /* MyStarryCompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStarryCompanionTests.swift; sourceTree = "<group>"; };
+		BA80716429EF685300964277 /* MyStarryCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStarryCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA80716829EF685300964277 /* MyStarryCompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStarryCompanionUITests.swift; sourceTree = "<group>"; };
+		BA80716A29EF685300964277 /* MyStarryCompanionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStarryCompanionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA80717729EF686C00964277 /* CherryBlossomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CherryBlossomView.swift; sourceTree = "<group>"; };
+		BA80717829EF686C00964277 /* ButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		BA80717929EF686C00964277 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BA80717A29EF686C00964277 /* ServeInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeInfoView.swift; sourceTree = "<group>"; };
+		BA80717B29EF686C00964277 /* LeafView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafView.swift; sourceTree = "<group>"; };
+		BA80717C29EF686C00964277 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../MyStarryCompanion.swiftpm/ContentView.swift; sourceTree = "<group>"; };
+		BA80717D29EF686C00964277 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BA80717E29EF686C00964277 /* FireworksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworksView.swift; sourceTree = "<group>"; };
+		BA80717F29EF686C00964277 /* ChoiceSeasonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceSeasonView.swift; sourceTree = "<group>"; };
+		BA80718129EF686C00964277 /* ExplainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplainView.swift; sourceTree = "<group>"; };
+		BA80718229EF686C00964277 /* SnowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+		BA80718329EF686C00964277 /* SeasonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		BA80719129EF68F500964277 /* starAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starAudio.mp3; sourceTree = "<group>"; };
+		BA80719329EF711B00964277 /* quizData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quizData.json; sourceTree = "<group>"; };
+		BA80719529EF781800964277 /* constellationsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = constellationsData.json; sourceTree = "<group>"; };
+		BA80719829EF79F800964277 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BA80719E29EF7C9C00964277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA80719F29EF7D4500964277 /* buttonLocationsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buttonLocationsData.json; sourceTree = "<group>"; };
+		BA8071A129EF7E8300964277 /* starLocations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = starLocations.json; sourceTree = "<group>"; };
+		BA8071A629EFA3FC00964277 /* RotatingStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingStar.swift; sourceTree = "<group>"; };
+		BA8071A829EFA42900964277 /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		BA8071AA29EFA45200964277 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		BA8071AC29EFA75B00964277 /* constellationLocationsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = constellationLocationsData.json; sourceTree = "<group>"; };
+		BA8071B029EFA7B800964277 /* memoLocationsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = memoLocationsData.json; sourceTree = "<group>"; };
+		BA8071B229EFADA800964277 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		BA8071B629EFB5A700964277 /* ShareDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDatas.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA80714229EF685200964277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80715729EF685300964277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80716129EF685300964277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA80713C29EF685200964277 = {
+			isa = PBXGroup;
+			children = (
+				BA8071AA29EFA45200964277 /* Audio.swift */,
+				BA8071B629EFB5A700964277 /* ShareDatas.swift */,
+				BA80719A29EF7A5B00964277 /* Resources */,
+				BA80714729EF685200964277 /* MyStarryCompanion */,
+				BA80715D29EF685300964277 /* MyStarryCompanionTests */,
+				BA80716729EF685300964277 /* MyStarryCompanionUITests */,
+				BA80714629EF685200964277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA80714629EF685200964277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA80714529EF685200964277 /* MyStarryCompanion.app */,
+				BA80715A29EF685300964277 /* MyStarryCompanionTests.xctest */,
+				BA80716429EF685300964277 /* MyStarryCompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA80714729EF685200964277 /* MyStarryCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				BA80719E29EF7C9C00964277 /* Info.plist */,
+				BA80714829EF685200964277 /* MyStarryCompanionApp.swift */,
+				BA80717C29EF686C00964277 /* ContentView.swift */,
+				BA8071B229EFADA800964277 /* ContentViewModel.swift */,
+				BA8071A529EFA3EF00964277 /* AnimeViews */,
+				BA80719D29EF7BBF00964277 /* ConstellationsView */,
+				BA80719C29EF7B9300964277 /* OnboardingView */,
+				BA80719B29EF7B5D00964277 /* SeasonEffectViews */,
+				BA80714C29EF685300964277 /* Assets.xcassets */,
+				BA80719829EF79F800964277 /* Extensions.swift */,
+				BA80714E29EF685300964277 /* Preview Content */,
+			);
+			path = MyStarryCompanion;
+			sourceTree = "<group>";
+		};
+		BA80714E29EF685300964277 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA80714F29EF685300964277 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA80715D29EF685300964277 /* MyStarryCompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA80715E29EF685300964277 /* MyStarryCompanionTests.swift */,
+			);
+			path = MyStarryCompanionTests;
+			sourceTree = "<group>";
+		};
+		BA80716729EF685300964277 /* MyStarryCompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA80716829EF685300964277 /* MyStarryCompanionUITests.swift */,
+				BA80716A29EF685300964277 /* MyStarryCompanionUITestsLaunchTests.swift */,
+			);
+			path = MyStarryCompanionUITests;
+			sourceTree = "<group>";
+		};
+		BA80719A29EF7A5B00964277 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA80719129EF68F500964277 /* starAudio.mp3 */,
+				BA80719329EF711B00964277 /* quizData.json */,
+				BA80719F29EF7D4500964277 /* buttonLocationsData.json */,
+				BA8071A129EF7E8300964277 /* starLocations.json */,
+				BA8071B029EFA7B800964277 /* memoLocationsData.json */,
+				BA8071AC29EFA75B00964277 /* constellationLocationsData.json */,
+				BA80719529EF781800964277 /* constellationsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA80719B29EF7B5D00964277 /* SeasonEffectViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA80718329EF686C00964277 /* SeasonView.swift */,
+				BA80717F29EF686C00964277 /* ChoiceSeasonView.swift */,
+				BA80717729EF686C00964277 /* CherryBlossomView.swift */,
+				BA80717E29EF686C00964277 /* FireworksView.swift */,
+				BA80717B29EF686C00964277 /* LeafView.swift */,
+				BA80718229EF686C00964277 /* SnowView.swift */,
+			);
+			path = SeasonEffectViews;
+			sourceTree = "<group>";
+		};
+		BA80719C29EF7B9300964277 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				BA80717A29EF686C00964277 /* ServeInfoView.swift */,
+				BA80717929EF686C00964277 /* OnboardingView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		BA80719D29EF7BBF00964277 /* ConstellationsView */ = {
+			isa = PBXGroup;
+			children = (
+				BA80717829EF686C00964277 /* ButtonsView.swift */,
+				BA80717D29EF686C00964277 /* ButtonView.swift */,
+				BA80718129EF686C00964277 /* ExplainView.swift */,
+			);
+			name = ConstellationsView;
+			sourceTree = "<group>";
+		};
+		BA8071A529EFA3EF00964277 /* AnimeViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA8071A629EFA3FC00964277 /* RotatingStar.swift */,
+				BA8071A829EFA42900964277 /* CompleteView.swift */,
+			);
+			path = AnimeViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA80714429EF685200964277 /* MyStarryCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA80716E29EF685300964277 /* Build configuration list for PBXNativeTarget "MyStarryCompanion" */;
+			buildPhases = (
+				BA80714129EF685200964277 /* Sources */,
+				BA80714229EF685200964277 /* Frameworks */,
+				BA80714329EF685200964277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStarryCompanion;
+			productName = MyStarryCompanion;
+			productReference = BA80714529EF685200964277 /* MyStarryCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA80715929EF685300964277 /* MyStarryCompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA80717129EF685300964277 /* Build configuration list for PBXNativeTarget "MyStarryCompanionTests" */;
+			buildPhases = (
+				BA80715629EF685300964277 /* Sources */,
+				BA80715729EF685300964277 /* Frameworks */,
+				BA80715829EF685300964277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA80715C29EF685300964277 /* PBXTargetDependency */,
+			);
+			name = MyStarryCompanionTests;
+			productName = MyStarryCompanionTests;
+			productReference = BA80715A29EF685300964277 /* MyStarryCompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA80716329EF685300964277 /* MyStarryCompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA80717429EF685300964277 /* Build configuration list for PBXNativeTarget "MyStarryCompanionUITests" */;
+			buildPhases = (
+				BA80716029EF685300964277 /* Sources */,
+				BA80716129EF685300964277 /* Frameworks */,
+				BA80716229EF685300964277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA80716629EF685300964277 /* PBXTargetDependency */,
+			);
+			name = MyStarryCompanionUITests;
+			productName = MyStarryCompanionUITests;
+			productReference = BA80716429EF685300964277 /* MyStarryCompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA80713D29EF685200964277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BA80714429EF685200964277 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BA80715929EF685300964277 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA80714429EF685200964277;
+					};
+					BA80716329EF685300964277 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA80714429EF685200964277;
+					};
+				};
+			};
+			buildConfigurationList = BA80714029EF685200964277 /* Build configuration list for PBXProject "MyStarryCompanion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA80713C29EF685200964277;
+			productRefGroup = BA80714629EF685200964277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA80714429EF685200964277 /* MyStarryCompanion */,
+				BA80715929EF685300964277 /* MyStarryCompanionTests */,
+				BA80716329EF685300964277 /* MyStarryCompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA80714329EF685200964277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80719629EF781800964277 /* constellationsData.json in Resources */,
+				BA80715029EF685300964277 /* Preview Assets.xcassets in Resources */,
+				BA80719229EF68F500964277 /* starAudio.mp3 in Resources */,
+				BA8071AD29EFA75B00964277 /* constellationLocationsData.json in Resources */,
+				BA8071B129EFA7B800964277 /* memoLocationsData.json in Resources */,
+				BA8071A229EF7E8300964277 /* starLocations.json in Resources */,
+				BA8071A029EF7D4500964277 /* buttonLocationsData.json in Resources */,
+				BA80714D29EF685300964277 /* Assets.xcassets in Resources */,
+				BA80719429EF711B00964277 /* quizData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80715829EF685300964277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80716229EF685300964277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA80714129EF685200964277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80718829EF686C00964277 /* LeafView.swift in Sources */,
+				BA8071A929EFA42900964277 /* CompleteView.swift in Sources */,
+				BA80718529EF686C00964277 /* ButtonsView.swift in Sources */,
+				BA80718729EF686C00964277 /* ServeInfoView.swift in Sources */,
+				BA80718C29EF686C00964277 /* ChoiceSeasonView.swift in Sources */,
+				BA80718E29EF686C00964277 /* ExplainView.swift in Sources */,
+				BA80719029EF686C00964277 /* SeasonView.swift in Sources */,
+				BA8071B729EFB5A700964277 /* ShareDatas.swift in Sources */,
+				BA80718A29EF686C00964277 /* ButtonView.swift in Sources */,
+				BA80718929EF686C00964277 /* ContentView.swift in Sources */,
+				BA8071AB29EFA45200964277 /* Audio.swift in Sources */,
+				BA80718F29EF686C00964277 /* SnowView.swift in Sources */,
+				BA8071A729EFA3FC00964277 /* RotatingStar.swift in Sources */,
+				BA80719929EF79F800964277 /* Extensions.swift in Sources */,
+				BA80714929EF685200964277 /* MyStarryCompanionApp.swift in Sources */,
+				BA8071B329EFADA800964277 /* ContentViewModel.swift in Sources */,
+				BA80718B29EF686C00964277 /* FireworksView.swift in Sources */,
+				BA80718429EF686C00964277 /* CherryBlossomView.swift in Sources */,
+				BA80718629EF686C00964277 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80715629EF685300964277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80715F29EF685300964277 /* MyStarryCompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA80716029EF685300964277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA80716B29EF685300964277 /* MyStarryCompanionUITestsLaunchTests.swift in Sources */,
+				BA80716929EF685300964277 /* MyStarryCompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA80715C29EF685300964277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA80714429EF685200964277 /* MyStarryCompanion */;
+			targetProxy = BA80715B29EF685300964277 /* PBXContainerItemProxy */;
+		};
+		BA80716629EF685300964277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA80714429EF685200964277 /* MyStarryCompanion */;
+			targetProxy = BA80716529EF685300964277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA80716C29EF685300964277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA80716D29EF685300964277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA80716F29EF685300964277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyStarryCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyStarryCompanion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA80717029EF685300964277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyStarryCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyStarryCompanion/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BA80717229EF685300964277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStarryCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyStarryCompanion";
+			};
+			name = Debug;
+		};
+		BA80717329EF685300964277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStarryCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyStarryCompanion";
+			};
+			name = Release;
+		};
+		BA80717529EF685300964277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyStarryCompanion;
+			};
+			name = Debug;
+		};
+		BA80717629EF685300964277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYAAXRZFXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyStarryCompanion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA80714029EF685200964277 /* Build configuration list for PBXProject "MyStarryCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80716C29EF685300964277 /* Debug */,
+				BA80716D29EF685300964277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA80716E29EF685300964277 /* Build configuration list for PBXNativeTarget "MyStarryCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80716F29EF685300964277 /* Debug */,
+				BA80717029EF685300964277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA80717129EF685300964277 /* Build configuration list for PBXNativeTarget "MyStarryCompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80717229EF685300964277 /* Debug */,
+				BA80717329EF685300964277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA80717429EF685300964277 /* Build configuration list for PBXNativeTarget "MyStarryCompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA80717529EF685300964277 /* Debug */,
+				BA80717629EF685300964277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA80713D29EF685200964277 /* Project object */;
+}

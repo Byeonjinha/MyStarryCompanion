@@ -1,0 +1,386 @@
+[
+  [
+    {
+      "choices" : [
+        "Brave and independent",
+        "Creative and artistic",
+        "Active and sociable",
+        "Concentrated and meticulous"
+      ],
+      "text" : "What are the characteristics of Aries?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "Fire",
+        "Earth",
+        "Wind",
+        "Water"
+      ],
+      "text" : "What is Aries material?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "3",
+        "7",
+        "9",
+        "11"
+      ],
+      "text" : "What is Aries lucky number?",
+      "answerIndex" : 3
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Discreet and stable",
+        "Bold and independent",
+        "Active and sociable",
+        "Creative and artistic"
+      ],
+      "text" : "What are the characteristics of Taurus?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "Fire",
+        "Earth",
+        "Wind",
+        "Water"
+      ],
+      "text" : "What are the attributes of Taurus?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "3",
+        "7",
+        "9",
+        "11"
+      ],
+      "text" : "What is the lucky number for Taurus?",
+      "answerIndex" : 2
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Active and curious",
+        "Focused and realistic",
+        "Friendly and sociable",
+        "Patience and prudence"
+      ],
+      "text" : "What are the characteristics of Gemini?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "Venus and Mercury",
+        "Mars and Jupiter",
+        "Uranus and Neptune",
+        "Earth and Sun"
+      ],
+      "text" : "What is Gemini's planet?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "April 20 - May 20",
+        "May 21 - June 21",
+        "June 22 - July 22",
+        "July 23 - August 22"
+      ],
+      "text" : "What is the duration of the zodiac sign?",
+      "answerIndex" : 1
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "The Lion",
+        "The Crab",
+        "The Bull",
+        "The Twins"
+      ],
+      "text" : "What is the symbol of Cancer?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "Fire",
+        "Earth",
+        "Air",
+        "Water"
+      ],
+      "text" : "What element does Cancer belong to?",
+      "answerIndex" : 3
+    },
+    {
+      "choices" : [
+        "Jupiter",
+        "Mars",
+        "Moon",
+        "Venus"
+      ],
+      "text" : "Which planet rules over Cancer?",
+      "answerIndex" : 2
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Sun"
+      ],
+      "text" : "What is Leo's ruling planet?",
+      "answerIndex" : 3
+    },
+    {
+      "choices" : [
+        "Earth",
+        "Fire",
+        "Water",
+        "Air"
+      ],
+      "text" : "Which element is associated with Leo?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "Humble",
+        "Reserved",
+        "Confident",
+        "Passive"
+      ],
+      "text" : "Which of the following traits is typically associated with Leo?",
+      "answerIndex" : 2
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Venus",
+        "Mars",
+        "Mercury",
+        "Jupiter"
+      ],
+      "text" : "What is Virgo's ruling planet?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Emotional and sensitive",
+        "Bold and daring",
+        "Practical and analytical",
+        "Creative and imaginative"
+      ],
+      "text" : "Which of the following is a typical trait of a Virgo?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Earth",
+        "Fire",
+        "Water",
+        "Air"
+      ],
+      "text" : "Which element is associated with the zodiac sign Virgo?",
+      "answerIndex" : 0
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Fire",
+        "Earth",
+        "Air",
+        "Water"
+      ],
+      "text" : "What is the zodiac element of Libra?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "text" : "Which planet rules over Libra?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "Emotional and intuitive",
+        "Ambitious and driven",
+        "Diplomatic and fair-minded",
+        "Adventurous and independent"
+      ],
+      "text" : "Which of the following is a typical trait of a Libra?",
+      "answerIndex" : 2
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Venus",
+        "Pluto",
+        "Mars",
+        "Saturn"
+      ],
+      "text" : "What is Scorpio's ruling planet?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "Honest",
+        "Shy",
+        "Intense",
+        "Carefree"
+      ],
+      "text" : "What is one of Scorpio's defining traits?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Earth",
+        "Fire",
+        "Air",
+        "Water"
+      ],
+      "text" : "What element is associated with Scorpio?",
+      "answerIndex" : 3
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Water",
+        "Fire",
+        "Earth",
+        "Air"
+      ],
+      "text" : "What element is Sagittarius associated with?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "Emotional sensitivity",
+        "Loyalty",
+        "Adventurousness",
+        "Practicality"
+      ],
+      "text" : "What is one of the key traits of Sagittarius?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "text" : "What planet rules Sagittarius?",
+      "answerIndex" : 3
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Saturn",
+        "Jupiter",
+        "Venus",
+        "Mars"
+      ],
+      "text" : "What is Capricorn's ruling planet?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "Spontaneous",
+        "Carefree",
+        "Ambitious",
+        "Impulsive"
+      ],
+      "text" : "Which of the following is a typical trait of Capricorn?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Green",
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "text" : "What is Capricorn's lucky color?",
+      "answerIndex" : 3
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Creative and imaginative",
+        "Practical and logical",
+        "Assertive and confident",
+        "Competitive and aggressive"
+      ],
+      "text" : "What are the characteristics of Pisces?",
+      "answerIndex" : 0
+    },
+    {
+      "choices" : [
+        "Jupiter",
+        "Venus",
+        "Neptune",
+        "Saturn"
+      ],
+      "text" : "What is Pisces' ruling planet?",
+      "answerIndex" : 2
+    },
+    {
+      "choices" : [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Purple"
+      ],
+      "text" : "What is Pisces' lucky color?",
+      "answerIndex" : 3
+    }
+  ],
+  [
+    {
+      "choices" : [
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Venus"
+      ],
+      "text" : "What is the ruling planet of Aquarius?",
+      "answerIndex" : 1
+    },
+    {
+      "choices" : [
+        "Water",
+        "Earth",
+        "Fire",
+        "Air"
+      ],
+      "text" : "Which element is associated with Aquarius?",
+      "answerIndex" : 3
+    },
+    {
+      "choices" : [
+        "Practical and reliable",
+        "Creative and artistic",
+        "Independent and unconventional",
+        "Compassionate and nurturing"
+      ],
+      "text" : "Which of the following characteristics is associated with Aquarius?",
+      "answerIndex" : 1
+    }
+  ]
+]

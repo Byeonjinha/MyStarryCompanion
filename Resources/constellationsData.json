@@ -1,0 +1,63 @@
+[
+  {
+    "name" : "Aries",
+    "season" : "Spring",
+    "description" : "A spring constellation that represents the image of a sheep with two horns. It is easily observable in the spring evening sky."
+  },
+  {
+    "name" : "Taurus",
+    "season" : "Winter",
+    "description" : "A winter constellation that is centered around two of its brightest stars, Aldebaran and Iota Tauri. It resembles a horn and can be seen in the winter night sky."
+  },
+  {
+    "name" : "Gemini",
+    "season" : "Winter",
+    "description" : "A winter constellation that resembles two brothers, and it contains the brightest stars along with the constellation Cancer located right next to it."
+  },
+  {
+    "name" : "Cancer",
+    "season" : "Summer",
+    "description" : "A summer constellation that resembles a crab and contains the brightest stars along with Gemini. It can be seen in the summer night sky."
+  },
+  {
+    "name" : "Leo",
+    "season" : "Summer",
+    "description" : "A summer constellation that resembles a lion and is one of the most prominent constellations in the night sky. It can be seen in the summer night sky."
+  },
+  {
+    "name" : "Virgo",
+    "season" : "Spring",
+    "description" : "A spring constellation that resembles a virgin and has many bright stars, including the brightest stars among the constellations. It can be seen in the spring evening sky."
+  },
+  {
+    "name" : "Libra",
+    "season" : "Autumn",
+    "description" : "An autumn constellation that resembles a scale, and it can be seen mainly in autumn."
+  },
+  {
+    "name" : "Scorpio",
+    "season" : "Summer",
+    "description" : "A summer constellation that resembles a scorpion and is one of the most prominent constellations in the night sky. It can be seen in the summer night sky."
+  },
+  {
+    "name" : "Sagittarius",
+    "season" : "Summer",
+    "description" : "A summer constellation that resembles an archer and contains many bright stars associated with the Milky Way. It can be seen in the summer night sky."
+  },
+  {
+    "name" : "Capricorn",
+    "season" : "Winter",
+    "description" : "A winter constellation that resembles a goat and can be observed in the night sky in winter."
+  },
+  {
+    "name" : "Aquarius",
+    "season" : "Winter",
+    "description" : "A winter constellation that resembles a water bearer, and there are many meteor showers in this constellation. It can be seen in the winter night sky."
+  },
+  {
+    "name" : "Pisces",
+    "season" : "Winter",
+    "description" : "A winter constellation that resembles a fish and is represented by two fish swimming. It can be seen in the winter night sky."
+  }
+]
+
