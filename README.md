@@ -1,5 +1,7 @@
 # MyStarryCompanionApp
  아..아옭...아옭옭.. 별자리 퀴즈앱
+
+------------------------
 <img src="https://user-images.githubusercontent.com/87685946/233020622-0bb9b384-9d2a-4e45-8930-86f54d8a4d7f.png" width="20%" height="20%"/>
 <img src="https://user-images.githubusercontent.com/87685946/233020658-7a36812b-865a-480c-aaf1-be10ad483d99.png" width="20%" height="20%"/>
 <img src="https://user-images.githubusercontent.com/87685946/233020622-0bb9b384-9d2a-4e45-8930-86f54d8a4d7f.png" width="20%" height="20%"/>
