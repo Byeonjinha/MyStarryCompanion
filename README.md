@@ -1,2 +1,2 @@
-# MyStarryCompanion
- 아..아옭옭...아...옭..
+# MyStarryCompanionApp
+ 아..아옭...아옭옭..
