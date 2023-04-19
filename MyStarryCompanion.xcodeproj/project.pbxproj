@@ -37,7 +37,6 @@
 		BA8071AD29EFA75B00964277 /* constellationLocationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA8071AC29EFA75B00964277 /* constellationLocationsData.json */; };
 		BA8071B129EFA7B800964277 /* memoLocationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = BA8071B029EFA7B800964277 /* memoLocationsData.json */; };
 		BA8071B329EFADA800964277 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071B229EFADA800964277 /* ContentViewModel.swift */; };
-		BA8071B729EFB5A700964277 /* ShareDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8071B629EFB5A700964277 /* ShareDatas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +91,6 @@
 		BA8071AC29EFA75B00964277 /* constellationLocationsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = constellationLocationsData.json; sourceTree = "<group>"; };
 		BA8071B029EFA7B800964277 /* memoLocationsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = memoLocationsData.json; sourceTree = "<group>"; };
 		BA8071B229EFADA800964277 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		BA8071B629EFB5A700964277 /* ShareDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDatas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				BA8071AA29EFA45200964277 /* Audio.swift */,
-				BA8071B629EFB5A700964277 /* ShareDatas.swift */,
 				BA80719A29EF7A5B00964277 /* Resources */,
 				BA80714729EF685200964277 /* MyStarryCompanion */,
 				BA80715D29EF685300964277 /* MyStarryCompanionTests */,
@@ -385,7 +382,6 @@
 				BA80718C29EF686C00964277 /* ChoiceSeasonView.swift in Sources */,
 				BA80718E29EF686C00964277 /* ExplainView.swift in Sources */,
 				BA80719029EF686C00964277 /* SeasonView.swift in Sources */,
-				BA8071B729EFB5A700964277 /* ShareDatas.swift in Sources */,
 				BA80718A29EF686C00964277 /* ButtonView.swift in Sources */,
 				BA80718929EF686C00964277 /* ContentView.swift in Sources */,
 				BA8071AB29EFA45200964277 /* Audio.swift in Sources */,
