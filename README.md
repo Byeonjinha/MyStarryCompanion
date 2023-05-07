@@ -1,4 +1,4 @@
-# MyStarryCompanionApp 
+# 🌠MyStarryCompanionApp 
 **퀴즈를 통해 별자리를 학습할 수 있는 앱**
 
 ------------------------
