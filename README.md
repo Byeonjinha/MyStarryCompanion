@@ -1,5 +1,5 @@
 # MyStarryCompanionApp 
-(퀴즈를 통해 별자리를 학습할 수 있는 앱)
+**퀴즈를 통해 별자리를 학습할 수 있는 앱**
 
 ------------------------
 <img src="https://user-images.githubusercontent.com/87685946/233023159-3f8e70aa-8c7b-45f2-be0c-525086ea2f4c.png" width="100%" height="100%"/>
