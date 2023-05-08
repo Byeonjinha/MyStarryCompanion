@@ -11,6 +11,7 @@ struct OnboardingView: View {
     @Binding var isOnboarding: Bool
     @Binding var isfirst: Bool
     @Binding var isShowInfo: Bool
+    @Binding var currentState: Int
     @State private var currentPageIndex = 0
 
     let pages = [
@@ -22,7 +23,6 @@ struct OnboardingView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .ignoresSafeArea()
                 .opacity(0.7)
                 .onTapGesture {}
         
@@ -46,6 +46,7 @@ struct OnboardingView: View {
                         currentPageIndex += 1
                     } else {
                         isOnboarding = false
+                        currentState = 1
                         if isfirst {
                             isfirst = false
                             isShowInfo = true

@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct CustomShapeView: View {
-    var locationX: Double
-    var locationY: Double
     var body: some View {
         GeometryReader { geometry in
             Path { path in
+                let Bwidth = geometry.size.width * 100
+                let Bheight = geometry.size.height * 100
                 let width = geometry.size.width
                 let height = geometry.size.height
                 
                 let radius = min(width, height) / 2.0
-                let center = CGPoint(x: width / locationX, y: height / locationY)
-                let holeRadius = radius * 0.2
+                let center = CGPoint(x: width/2, y: height/2)
+                let holeRadius = radius * 0.5
                 
-                path.addRect(CGRect(x: 0, y: 0, width: width, height: height))
+                path.addRect(CGRect(x: -Bwidth/2, y: -Bheight/2, width: Bwidth, height: Bheight))
                 let holeRect = CGRect(x: center.x - holeRadius, y: center.y - holeRadius, width: holeRadius * 2, height: holeRadius * 2)
                 let holePath = UIBezierPath(ovalIn: holeRect)
                 let holeCGPath = holePath.cgPath
@@ -38,46 +38,23 @@ struct CustomShapeView: View {
 
 struct ServeInfoView: View {
     @Binding var isShowInfo: Bool
-    @State var currentSate = 0
+    @Binding var currentSate: Int
+    
     var body: some View {
-        ZStack {
-            if currentSate == 0{
-                CustomShapeView(locationX:  21, locationY: 1.06)
-                    .ignoresSafeArea()
+        ZStack{
+            if currentSate == 1{
+                
+                CustomShapeView()
+                
                 HStack{
                     ServeInfoSpellOutText(inputText: "This button allows you to play or pause music.")
-                        .offset( y: h * 0.35)
+                        .offset(x: w * 0.5, y: -h * 0.02)
                         .foregroundColor(.white)
                     Spacer()
-                }
-            } else if currentSate == 1{
-                CustomShapeView(locationX: 1.17, locationY: 1.06)
-                    .ignoresSafeArea()
-                HStack{
-                    ServeInfoSpellOutText(inputText: "This button allows you to choose seasonal effects.")
-                        .offset(x:w * 0.4, y: h * 0.35)
-                        .foregroundColor(.white)
-                    Spacer()
-                }
-            } else if currentSate == 2{
-                CustomShapeView(locationX: 1.04, locationY: 1.06)
-                    .ignoresSafeArea()
-                HStack{
-                    ServeInfoSpellOutText(inputText: "If you press this button, you can view the tutorial again.")
-                        .offset(x:w * 0.3, y: h * 0.35)
-                        .foregroundColor(.white)
-                    Spacer()
-                }
+                }.frame(width: w)
+            } else {
+                EmptyView()
             }
-            Rectangle()
-                .ignoresSafeArea()
-                .opacity(0.01)
-                .onTapGesture {
-                    currentSate += 1
-                    if currentSate >= 3 {
-                        isShowInfo = false
-                    }
-                }
         }
     }
 }

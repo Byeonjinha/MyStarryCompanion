@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+ @main
 struct MyStarryCompanionApp: App {
     init() {
         UIView.appearance().isMultipleTouchEnabled = false

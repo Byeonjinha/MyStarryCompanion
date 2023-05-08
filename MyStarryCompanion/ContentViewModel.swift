@@ -26,5 +26,6 @@ class ContentViewModel: ObservableObject {
     @Published var seasonState: Int = 0
     @Published var xOffset: CGFloat = 0.0
     @Published var yOffset: CGFloat = 0.0
+    @Published var currentSate = 0
     let starLocations: [[Double]] = loadButtonLocations(fileName: "starLocations" )
 }
