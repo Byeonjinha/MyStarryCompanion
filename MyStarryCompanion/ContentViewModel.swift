@@ -13,7 +13,7 @@ class ContentViewModel: ObservableObject {
     @Published var clearState = [Bool](repeating: false, count: 12)
     @Published var isChoiceSeasons: Bool = false
     @Published var isfirst: Bool = true
-    @Published var isFlipped: Bool = false
+    @Published var isFlipped = [Bool](repeating: false, count: 12)
     @Published var isOnboarding: Bool = true
     @Published var isOnstarts = [Bool](repeating: false, count: 36)
     @Published var isPlaying: Bool = false

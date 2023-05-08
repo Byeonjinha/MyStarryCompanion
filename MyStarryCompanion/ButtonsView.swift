@@ -13,7 +13,7 @@ struct ButtonsView: View {
     @Binding var xOffset: CGFloat
     @Binding var yOffset: CGFloat
     @Binding var isShown: Bool
-    @Binding var isFlipped: Bool
+    @Binding var isFlipped: [Bool]
     @Binding var isOnstars: [Bool]
     @Binding var clearState: [Bool]
     @State var memoOpacity: Double = 0

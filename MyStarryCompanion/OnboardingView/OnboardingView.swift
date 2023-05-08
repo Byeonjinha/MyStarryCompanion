@@ -24,8 +24,6 @@ struct OnboardingView: View {
         ZStack{
             Rectangle()
                 .opacity(0.7)
-                .onTapGesture {}
-        
             VStack {
                 TabView(selection: $currentPageIndex) {
                     ForEach(pages.indices) { index in
