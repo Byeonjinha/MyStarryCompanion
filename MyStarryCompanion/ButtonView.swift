@@ -34,6 +34,7 @@ struct ButtonView: View {
         }
     }
     var constellationNum: Int
+    let generator = UIImpactFeedbackGenerator(style: .heavy)
     
     var body: some View {
         VStack {
@@ -75,6 +76,7 @@ struct ButtonView: View {
                                                 
                                             }else{
                                                 quizState[idx] = false
+                                                 generator.impactOccurred()
                                             }
                                             
                                         }){
