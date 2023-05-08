@@ -32,21 +32,21 @@ iOS: 15.0+,  Xcode: 14.1
 
 ```Swift
  import SwiftUI
-
+ 
 struct CustomShapeView: View {
-    var locationX: Double
-    var locationY: Double
     var body: some View {
         GeometryReader { geometry in
             Path { path in
+                let Bwidth = geometry.size.width * 100
+                let Bheight = geometry.size.height * 100
                 let width = geometry.size.width
                 let height = geometry.size.height
                 
                 let radius = min(width, height) / 2.0
-                let center = CGPoint(x: width / locationX, y: height / locationY)
-                let holeRadius = radius * 0.2
+                let center = CGPoint(x: width/2, y: height/2)
+                let holeRadius = radius * 0.5
                 
-                path.addRect(CGRect(x: 0, y: 0, width: width, height: height))
+                path.addRect(CGRect(x: -Bwidth/2, y: -Bheight/2, width: Bwidth, height: Bheight))
                 let holeRect = CGRect(x: center.x - holeRadius, y: center.y - holeRadius, width: holeRadius * 2, height: holeRadius * 2)
                 let holePath = UIBezierPath(ovalIn: holeRect)
                 let holeCGPath = holePath.cgPath
@@ -57,6 +57,7 @@ struct CustomShapeView: View {
         }
     }
 }
+
 ```
 
 GeometryReader, ScaleEffect를 활용해 다이나믹한 애니메이션 구현
