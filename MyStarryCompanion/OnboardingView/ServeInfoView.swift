@@ -39,16 +39,17 @@ struct CustomShapeView: View {
 struct ServeInfoView: View {
     @Binding var isShowInfo: Bool
     @Binding var currentSate: Int
-    
+    var inputText: String
+    var offsetXY: [Double]
+    var stateNum: Int
     var body: some View {
         ZStack{
-            if currentSate == 1{
-                
+            if currentSate == stateNum && isShowInfo{
                 CustomShapeView()
                 
                 HStack{
-                    ServeInfoSpellOutText(inputText: "This button allows you to play or pause music.")
-                        .offset(x: w * 0.5, y: -h * 0.02)
+                    ServeInfoSpellOutText(inputText: inputText)
+                        .offset(x: w * offsetXY[0], y: h * offsetXY[1])
                         .foregroundColor(.white)
                     Spacer()
                 }.frame(width: w)

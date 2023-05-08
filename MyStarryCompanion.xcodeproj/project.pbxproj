@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3EB0022A08E31F00B36666 /* BMGPlayBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB0012A08E31F00B36666 /* BMGPlayBtnView.swift */; };
+		BA3EB0072A08E4CE00B36666 /* SeasonEffectBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB0062A08E4CE00B36666 /* SeasonEffectBtnView.swift */; };
+		BA3EB0092A08E57E00B36666 /* OnboardingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB0082A08E57E00B36666 /* OnboardingBtn.swift */; };
+		BA3EB00B2A08ED4900B36666 /* EffectOptionButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB00A2A08ED4900B36666 /* EffectOptionButtonViews.swift */; };
 		BA80714929EF685200964277 /* MyStarryCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80714829EF685200964277 /* MyStarryCompanionApp.swift */; };
 		BA80714D29EF685300964277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80714C29EF685300964277 /* Assets.xcassets */; };
 		BA80715029EF685300964277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80714F29EF685300964277 /* Preview Assets.xcassets */; };
@@ -57,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3EB0012A08E31F00B36666 /* BMGPlayBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGPlayBtnView.swift; sourceTree = "<group>"; };
+		BA3EB0062A08E4CE00B36666 /* SeasonEffectBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonEffectBtnView.swift; sourceTree = "<group>"; };
+		BA3EB0082A08E57E00B36666 /* OnboardingBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingBtn.swift; sourceTree = "<group>"; };
+		BA3EB00A2A08ED4900B36666 /* EffectOptionButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectOptionButtonViews.swift; sourceTree = "<group>"; };
 		BA80714529EF685200964277 /* MyStarryCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStarryCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA80714829EF685200964277 /* MyStarryCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStarryCompanionApp.swift; sourceTree = "<group>"; };
 		BA80714C29EF685300964277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +126,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA3EB0032A08E48E00B36666 /* EffectOptionButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA3EB00A2A08ED4900B36666 /* EffectOptionButtonViews.swift */,
+				BA3EB0012A08E31F00B36666 /* BMGPlayBtnView.swift */,
+				BA3EB0062A08E4CE00B36666 /* SeasonEffectBtnView.swift */,
+				BA3EB0082A08E57E00B36666 /* OnboardingBtn.swift */,
+			);
+			path = EffectOptionButtonViews;
+			sourceTree = "<group>";
+		};
 		BA80713C29EF685200964277 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +166,7 @@
 				BA80714829EF685200964277 /* MyStarryCompanionApp.swift */,
 				BA80717C29EF686C00964277 /* ContentView.swift */,
 				BA8071B229EFADA800964277 /* ContentViewModel.swift */,
+				BA3EB0032A08E48E00B36666 /* EffectOptionButtonViews */,
 				BA8071A529EFA3EF00964277 /* AnimeViews */,
 				BA80719D29EF7BBF00964277 /* ConstellationsView */,
 				BA80719C29EF7B9300964277 /* OnboardingView */,
@@ -375,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3EB0022A08E31F00B36666 /* BMGPlayBtnView.swift in Sources */,
 				BA80718829EF686C00964277 /* LeafView.swift in Sources */,
 				BA8071A929EFA42900964277 /* CompleteView.swift in Sources */,
 				BA80718529EF686C00964277 /* ButtonsView.swift in Sources */,
@@ -384,14 +405,17 @@
 				BA80719029EF686C00964277 /* SeasonView.swift in Sources */,
 				BA80718A29EF686C00964277 /* ButtonView.swift in Sources */,
 				BA80718929EF686C00964277 /* ContentView.swift in Sources */,
+				BA3EB0072A08E4CE00B36666 /* SeasonEffectBtnView.swift in Sources */,
 				BA8071AB29EFA45200964277 /* Audio.swift in Sources */,
 				BA80718F29EF686C00964277 /* SnowView.swift in Sources */,
 				BA8071A729EFA3FC00964277 /* RotatingStar.swift in Sources */,
+				BA3EB00B2A08ED4900B36666 /* EffectOptionButtonViews.swift in Sources */,
 				BA80719929EF79F800964277 /* Extensions.swift in Sources */,
 				BA80714929EF685200964277 /* MyStarryCompanionApp.swift in Sources */,
 				BA8071B329EFADA800964277 /* ContentViewModel.swift in Sources */,
 				BA80718B29EF686C00964277 /* FireworksView.swift in Sources */,
 				BA80718429EF686C00964277 /* CherryBlossomView.swift in Sources */,
+				BA3EB0092A08E57E00B36666 /* OnboardingBtn.swift in Sources */,
 				BA80718629EF686C00964277 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,9 +21,11 @@ struct OnboardingView: View {
     ]
 
     var body: some View {
+    
         ZStack{
             Rectangle()
                 .opacity(0.7)
+                .ignoresSafeArea()
             VStack {
                 TabView(selection: $currentPageIndex) {
                     ForEach(pages.indices) { index in
@@ -49,6 +51,7 @@ struct OnboardingView: View {
                             isfirst = false
                             isShowInfo = true
                         }
+                        print(isfirst, isShowInfo, currentState)
                         
                     }
                 }) {
