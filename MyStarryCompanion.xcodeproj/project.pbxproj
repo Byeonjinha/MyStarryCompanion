@@ -11,6 +11,7 @@
 		BA3EB0072A08E4CE00B36666 /* SeasonEffectBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB0062A08E4CE00B36666 /* SeasonEffectBtnView.swift */; };
 		BA3EB0092A08E57E00B36666 /* OnboardingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB0082A08E57E00B36666 /* OnboardingBtn.swift */; };
 		BA3EB00B2A08ED4900B36666 /* EffectOptionButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB00A2A08ED4900B36666 /* EffectOptionButtonViews.swift */; };
+		BA55F7E42A147EAB000F3BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55F7E32A147EAB000F3BEA /* ContentView.swift */; };
 		BA80714929EF685200964277 /* MyStarryCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80714829EF685200964277 /* MyStarryCompanionApp.swift */; };
 		BA80714D29EF685300964277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80714C29EF685300964277 /* Assets.xcassets */; };
 		BA80715029EF685300964277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA80714F29EF685300964277 /* Preview Assets.xcassets */; };
@@ -22,7 +23,6 @@
 		BA80718629EF686C00964277 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717929EF686C00964277 /* OnboardingView.swift */; };
 		BA80718729EF686C00964277 /* ServeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717A29EF686C00964277 /* ServeInfoView.swift */; };
 		BA80718829EF686C00964277 /* LeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717B29EF686C00964277 /* LeafView.swift */; };
-		BA80718929EF686C00964277 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717C29EF686C00964277 /* ContentView.swift */; };
 		BA80718A29EF686C00964277 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717D29EF686C00964277 /* ButtonView.swift */; };
 		BA80718B29EF686C00964277 /* FireworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717E29EF686C00964277 /* FireworksView.swift */; };
 		BA80718C29EF686C00964277 /* ChoiceSeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80717F29EF686C00964277 /* ChoiceSeasonView.swift */; };
@@ -65,6 +65,7 @@
 		BA3EB0062A08E4CE00B36666 /* SeasonEffectBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonEffectBtnView.swift; sourceTree = "<group>"; };
 		BA3EB0082A08E57E00B36666 /* OnboardingBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingBtn.swift; sourceTree = "<group>"; };
 		BA3EB00A2A08ED4900B36666 /* EffectOptionButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectOptionButtonViews.swift; sourceTree = "<group>"; };
+		BA55F7E32A147EAB000F3BEA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../Downloads/MyStarryCompanion-main 5/MyStarryCompanion/ContentView.swift"; sourceTree = "<group>"; };
 		BA80714529EF685200964277 /* MyStarryCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStarryCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA80714829EF685200964277 /* MyStarryCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStarryCompanionApp.swift; sourceTree = "<group>"; };
 		BA80714C29EF685300964277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +80,6 @@
 		BA80717929EF686C00964277 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BA80717A29EF686C00964277 /* ServeInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeInfoView.swift; sourceTree = "<group>"; };
 		BA80717B29EF686C00964277 /* LeafView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafView.swift; sourceTree = "<group>"; };
-		BA80717C29EF686C00964277 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../MyStarryCompanion.swiftpm/ContentView.swift; sourceTree = "<group>"; };
 		BA80717D29EF686C00964277 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		BA80717E29EF686C00964277 /* FireworksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworksView.swift; sourceTree = "<group>"; };
 		BA80717F29EF686C00964277 /* ChoiceSeasonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceSeasonView.swift; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 			children = (
 				BA80719E29EF7C9C00964277 /* Info.plist */,
 				BA80714829EF685200964277 /* MyStarryCompanionApp.swift */,
-				BA80717C29EF686C00964277 /* ContentView.swift */,
+				BA55F7E32A147EAB000F3BEA /* ContentView.swift */,
 				BA8071B229EFADA800964277 /* ContentViewModel.swift */,
 				BA3EB0032A08E48E00B36666 /* EffectOptionButtonViews */,
 				BA8071A529EFA3EF00964277 /* AnimeViews */,
@@ -404,10 +404,10 @@
 				BA80718E29EF686C00964277 /* ExplainView.swift in Sources */,
 				BA80719029EF686C00964277 /* SeasonView.swift in Sources */,
 				BA80718A29EF686C00964277 /* ButtonView.swift in Sources */,
-				BA80718929EF686C00964277 /* ContentView.swift in Sources */,
 				BA3EB0072A08E4CE00B36666 /* SeasonEffectBtnView.swift in Sources */,
 				BA8071AB29EFA45200964277 /* Audio.swift in Sources */,
 				BA80718F29EF686C00964277 /* SnowView.swift in Sources */,
+				BA55F7E42A147EAB000F3BEA /* ContentView.swift in Sources */,
 				BA8071A729EFA3FC00964277 /* RotatingStar.swift in Sources */,
 				BA3EB00B2A08ED4900B36666 /* EffectOptionButtonViews.swift in Sources */,
 				BA80719929EF79F800964277 /* Extensions.swift in Sources */,
@@ -589,7 +589,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -623,7 +623,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.badger.MyStarryCompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
